@@ -28,7 +28,7 @@ func main() {
 	sheet := "Sheet1"
 
 	f.SetCellValue(sheet, "A1", "Name")
-	f.SetCellValue(sheet, "A1", "Age")
+	f.SetCellValue(sheet, "B1", "Age")
 
 	for i, user := range user {
 		row := i + 2
